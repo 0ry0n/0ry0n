@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">0ry0n — Giuseppe Silvestro</title>
+  <desc id="desc">A compact terminal window with the whoami command, 0ry0n and a small Orion star field. Exploring systems. Occasionally breaking them.</desc>
+  <!-- Orion: gnomonic projection centred on RA 84 deg, Dec -1 deg; north up, east left.
+       Star coordinates: https://en.wikipedia.org/wiki/List_of_stars_in_Orion -->
+  <style>
+    .mono { font-family: 'DejaVu Sans Mono', Consolas, monospace; }
+    .cursor { animation: blink 1s step-end 3; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="1198" height="378" rx="9" fill="#0c1420" stroke="#233449" stroke-width="2"/>
+  <path d="M1 60 H1199" stroke="#233449" stroke-width="2"/>
+  <g fill="#91a1b7"><circle cx="34" cy="30" r="5"/><circle cx="57" cy="30" r="5"/><circle cx="80" cy="30" r="5"/></g>
+  <text x="1170" y="38" text-anchor="end" class="mono" font-size="21" fill="#91a1b7">~/0ry0n</text>
+  <text x="40" y="122" class="mono" font-size="23" fill="#66ddbd">$ whoami</text>
+  <text x="40" y="224" class="mono" font-size="96" font-weight="400" letter-spacing="-5.3" fill="#e6edf3">0ry0n<tspan class="cursor" fill="#66ddbd">_</tspan></text>
+  <text x="40" y="278" class="mono" font-size="25" fill="#e6edf3">Giuseppe Silvestro</text>
+  <text x="40" y="337" class="mono" font-size="21" fill="#abbad0">Exploring systems. Occasionally breaking them.</text>
+  <g transform="translate(360,82) scale(0.7)" fill="#66ddbd" opacity="0.5">
+    <path id="betelgeuse" d="M927.76 82.59 Q929.56 90.79 937.76 92.59 Q929.56 94.39 927.76 102.59 Q925.96 94.39 917.76 92.59 Q925.96 90.79 927.76 82.59 Z"/>
+    <path id="bellatrix" d="M1040.87 102.04 Q1042.6699999999998 107.24000000000001 1047.87 109.04 Q1042.6699999999998 110.84 1040.87 116.04 Q1039.07 110.84 1033.87 109.04 Q1039.07 107.24000000000001 1040.87 102.04 Z"/>
+    <path id="rigel" d="M1080.53 319.14 Q1082.33 327.34 1090.53 329.14 Q1082.33 330.94 1080.53 339.14 Q1078.73 330.94 1070.53 329.14 Q1078.73 327.34 1080.53 319.14 Z"/>
+    <path id="saiph" d="M956.0 344.24 Q957.8 349.44 963.0 351.24 Q957.8 353.04 956.0 358.24 Q954.2 353.04 949.0 351.24 Q954.2 349.44 956.0 344.24 Z"/>
+    <circle id="alnitak" cx="982.16" cy="234.15" r="3"/>
+    <circle id="alnilam" cx="999.2" cy="223.03" r="3"/>
+    <circle id="mintaka" cx="1014.98" cy="209.49" r="3"/>
+    <circle id="meissa" cx="1003.24" cy="53.97" r="3"/>
+    <circle id="ori42" cx="1002.3" cy="277.66" r="3"/>
+    <circle id="theta1" cx="1002.72" cy="285.97" r="3"/>
+    <circle id="hatysa" cx="1002.12" cy="293.83" r="3"/>
+  </g>
+</svg>
