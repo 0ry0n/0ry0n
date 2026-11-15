@@ -31,7 +31,7 @@ Contributed [One Call API support](https://github.com/briandowns/openweathermap/
 <!-- STATS:START -->
 | Stars on original repos | Forks of original repos | Public repositories |
 | :---: | :---: | :---: |
-| **228** | **41** | **8** |
+| **228** | **41** | **9** |
 
 <sub>Public data · checked 2026-11-15. Stars and forks exclude forked repositories.</sub>
 <!-- STATS:END -->
